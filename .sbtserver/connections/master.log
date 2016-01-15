@@ -1,0 +1,49 @@
+New log file opened at Fri Jan 15 08:10:24 GMT 2016 by 13999@michael.default
+Taking next connection to: 53333
+New client attempting to connect on port: 53334-53333
+  Address = /192.168.1.107:53333
+This client on port 53334 has uuid 56cb36a9-0403-47d4-8aa6-4b0ccef6f7e7 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-56cb36a9-0403-47d4-8aa6-4b0ccef6f7e7
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+New client attempting to connect on port: 53742-53333
+  Address = /192.168.1.107:53333
+Handshake exception on socket: 53742
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 53333
+New client attempting to connect on port: 53743-53333
+  Address = /192.168.1.107:53333
+This client on port 53743 has uuid 43f3eb26-382a-4c22-98a9-641befd5f8ca configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-56cb36a9-0403-47d4-8aa6-4b0ccef6f7e7, play-fork-run-43f3eb26-382a-4c22-98a9-641befd5f8ca
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53333
